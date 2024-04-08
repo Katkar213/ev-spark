@@ -1,0 +1,28 @@
+.feature-item {
+    height:45vh;
+}
+.feature-item.feature-info-style-01{
+    padding:20px;
+    /* text-align: left; */
+    margin-top: 20px;
+}
+.about-featured{
+    display: flex;
+    justify-content: space-between;
+}
+.about-featured-div{
+    width:26% !important;
+}
+/* .left-align{
+    text-align: left;
+} */
+.services-icons{
+    /* width:120px !important;
+    height:90px !important; */
+    font-size: 60px;
+    margin-bottom: 20px;
+    color:rgba(0, 0, 255, 0.673);
+}
+.feature-item.feature-info-style-01:hover .services-icons{
+    color:white;
+}
