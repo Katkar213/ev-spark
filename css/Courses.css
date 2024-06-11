@@ -9,7 +9,7 @@ color:white;
 } 
 .banner-content{
 position: absolute;
-z-index: 999;
+z-index: 99;
 top:30%;
 left:10%;
 }

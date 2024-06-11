@@ -4478,6 +4478,80 @@ textarea.form-control {
   .banner .pagination-button .swiper-button-next:hover {
     color: #2673f8; }
 
+
+
+/* know-us................................. */
+.know-us-parent{
+  display: flex;
+  justify-content: space-between;
+}
+.partner-images{
+  height:6rem;
+  width:9rem;
+  margin: 20px;
+}
+table tr td{
+  border:1px solid black;
+  padding:10px;
+}
+.know-us-text{
+ padding:5rem 0;
+ /* border:1px solid black; */
+}
+
+/* consulting-services...... */
+.consulting-heading{
+  font-size: 35px;
+}
+.div1{
+  display: flex;
+  /* border:1px solid black; */
+  padding:5px;
+  justify-content:space-between;
+  width:12rem;
+  align-items: center;
+  gap:20px;
+}
+.consulting-services-parent{
+  /* border:1px solid green; */
+  padding:10px;
+  display:flex;
+  flex-wrap: wrap;
+  gap:4rem;
+  justify-content: space-between;
+}
+.ai-services-parent{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* three-div */
+.first-three-div-inner{
+  display:flex;
+  gap:1rem;
+
+}
+.first-three-div-parent .sm-12{
+  margin-top: 20px;
+  border:1px solid black;
+  padding-top: 10px;
+}
+.first-three-div{
+  /* border:2px solid black; */
+  padding:20px 0px;
+  display:flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.first-three-div-inner i{
+  color:black;
+}
+
+
+
+
+
 /*Banner 02*/
 .banner.banner-02 .swiper-slide {
   padding-top: 0; }
@@ -4573,6 +4647,9 @@ textarea.form-control {
     left: 150px; } }
 
 @media (max-width: 1300px) {
+  .div1{
+    margin-top: 20px;
+  }
   .banner.banner-02 .pagination-button .swiper-button-prev {
     left: 0;
     right: auto; }
@@ -4587,6 +4664,23 @@ textarea.form-control {
     right: 80px; } }
 
 @media (max-width: 991px) {
+  .div1{
+    margin-top: 10px;
+  }
+  .know-us-parent{
+    display: flex;
+  flex-direction: column;
+  }
+  table tr td{
+    display: block;
+    width:90vw;
+    margin: auto;
+    text-align: center;
+  }
+  table{
+    width:90vw;
+    margin: auto;
+  }
   .banner .swiper-slide {
     height: 650px;
     padding-top: 0; }
@@ -4600,6 +4694,25 @@ textarea.form-control {
     right: 70px; } }
 
 @media (max-width: 767px) {
+  .header h1{
+    font-size: 31px !important;
+  }
+  .header span{
+    font-size: 21px;
+    margin-right: 40px;
+  }
+  .know-us-parent{
+    display: flex;
+  flex-direction: column;
+  }
+  .div1 img{
+    height: 2.5rem !important;
+    width: 4rem !important;
+  }
+  .div1{
+    flex-direction: column;
+    width:8rem;
+  }
   .banner .swiper-slide {
     height: 600px; }
   .banner.banner-02 .swiper-slide {
@@ -4633,6 +4746,10 @@ textarea.form-control {
     bottom: 20px; } }
 
 @media (max-width: 575px) {
+  .know-us-parent{
+    display: flex;
+  flex-direction: column;
+  }
   .banner .swiper-slide {
     height: 450px; }
   .banner .pagination-button .swiper-button-prev {
@@ -5020,6 +5137,10 @@ textarea.form-control {
       font-weight: 600; } }
 
 @media (max-width: 767px) {
+  .know-us-parent{
+    display: flex;
+  flex-direction: column;
+  }
   .blog-post.blog-style-02 .blog-info {
     padding-top: 20px;
     padding-right: 0; }
@@ -5595,11 +5716,12 @@ textarea.form-control {
   }
   .why-us-div{
     /* border:2px solid black; */
-    box-shadow: 0px 0px 5px lightgrey;
-    width:17vw;
+    /* box-shadow: 0px 0px 5px lightgrey; */
+    width:18vw;
+    height:27vh;
     /* height:10vw; */
     margin-top: 20px;
-    padding:10px;
+    padding:25px;
   }
   .why-us-div h1
  {
@@ -5634,8 +5756,15 @@ textarea.form-control {
     font-size: 14px; }
   .cart-table .actions .update-cart .btn {
     font-size: 14px; } }
+    /* .why-choose-us-parent{
+      display: none;
+    } */
+ 
 
 @media (max-width: 767px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .slider-slick .slider-nav .slick-prev {
     display: none !important; }
   .slider-slick .slider-nav .slick-next {
@@ -5651,6 +5780,9 @@ textarea.form-control {
     margin-bottom: 10px; } }
 
 @media (max-width: 575px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .cart-table .actions {
     display: block; }
     .cart-table .actions .coupon #coupon_code {
@@ -5666,6 +5798,9 @@ textarea.form-control {
     padding: 25px; } }
 
 @media (max-width: 479px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .cart-table .actions .coupon form {
     display: block; }
     .cart-table .actions .coupon form .input-text {
@@ -5829,6 +5964,9 @@ ul.footer-contact li {
        Responsive
 *************************/
 @media (max-width: 1199px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .footer-newsletter {
     margin-bottom: 30px; }
   .call-center h2 {
@@ -5839,6 +5977,9 @@ ul.footer-contact li {
     margin-top: 40px; } }
 
 @media (max-width: 991px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .footer .footer-logo .logo {
     height: 34px; }
   .footer .call-center h2 {
@@ -5849,10 +5990,16 @@ ul.footer-contact li {
             justify-content: center; } }
 
 @media (max-width: 767px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .copyright {
     padding: 60px 0px 35px 0px; } }
 
 @media (max-width: 575px) {
+  .why-choose-us-parent{
+    display: none;
+  }
   .footer-social-icon {
     margin-top: 40px; }
   .copyright {

@@ -78,6 +78,7 @@ transition:2s all;
     margin: auto !important;
     justify-content: space-between;
     padding:0 5vw;
+    margin-bottom: 20px !important;
     
 }
 .course-features{
